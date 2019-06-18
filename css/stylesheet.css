@@ -21,6 +21,29 @@ body {
     display: inline;
 }
 
+table {
+    border: 1px solid #3399cc;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px  solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F5FAFC;
+}
+
 /* Header */
 header {
     background-color: #000033;
