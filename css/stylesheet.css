@@ -101,6 +101,23 @@ nav ul {
     padding-left: 0;
 }
 
+/* Form Styles */
+label {
+    float: left;
+    display: block;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 10em;
+}
+
 /* Images */
 
 #homehero {
